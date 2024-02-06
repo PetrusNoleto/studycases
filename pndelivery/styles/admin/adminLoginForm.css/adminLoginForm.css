@@ -1,0 +1,59 @@
+.pndeliveryLoginFormContainer{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 32px;
+    align-items: center;
+}
+.pndeliveryAdminForm{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px
+}
+.pndeliveryAdminFormLabel{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pndeliveryAdminFormInput{
+    width: 420px;
+    height: 50px;
+    border: 0.5px solid #141414;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.pndeliveryLoginOr{
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.pndeliveryLoginWithSocial{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.pndeliveryLoginWithSocialItem{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    gap: 12px;
+}
+.pndeliveryLoginWithSocialItem > svg{
+    width: 24px;
+    height: 24px;
+}

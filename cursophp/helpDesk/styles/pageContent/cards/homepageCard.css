@@ -1,0 +1,37 @@
+.homepageCardsContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+.homepageCardsBox{
+    width: 200px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border:1px solid #2a2a2a;
+    border-radius: 12px;
+    background-color: #2a2a2a;
+    position: relative;
+    transition: all 300ms;
+}
+.homepageCardLink{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c9c9c9;
+    font-size: 14px;
+    transition: color 300ms;
+}
+.homepageCardsBox:hover{
+    color: #2a2a2a;
+    background-color: #f5f5f5;
+    border:1px solid #2a2a2a;
+}
+.homepageCardLink:hover{
+    color: #2a2a2a;
+}

@@ -1,0 +1,13 @@
+@import url("./header/loginHeader/loginHeader.css");
+@import url("./header/applicationHeader/applicationHeader.css");
+@import url("./pageContent/loginPage/loginPageContent.css");
+@import url("./pageContent/cards/homepageCard.css");
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+.pndeliveryLoginFormHeaderInfo{
+   padding: 12px;
+   text-align: center;
+}
+.pndeliveryLoginFormHeaderInfoTitle{
+    font-size: 64px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+}
+.pndeliveryLoginFormHeaderInfoSlogan{
+    font-size: 24px;
+    color: #2a2a2a;
+    text-transform: capitalize;
+}

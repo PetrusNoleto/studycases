@@ -1,0 +1,41 @@
+.applicationHeader{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+    align-items: center;
+    background-color: #2a2a2a;
+}
+.applicationHeaderBrand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.applicationHeaderBrandContent{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #c9c9c9;
+}
+.applicationHeaderNavigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.applicationHeaderLogoultBox{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    align-items: center;
+    margin-left: 20px;
+}
+.applicationHeaderLogoultBoxItem , .applicationHeaderNavigationItem{
+    color: #c9c9c9;
+    transition: color 300ms;
+}
+.applicationHeaderNavigationItem:hover, .applicationHeaderLogoultBoxItem:hover {
+    color: #fff;
+}

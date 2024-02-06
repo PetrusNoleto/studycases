@@ -1,0 +1,50 @@
+.loginErrorMessage{
+    font-size: 14px;
+    color: red;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.pageContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.userLoginForm{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: auto;
+    padding: 12px;
+   
+}
+.userLoginFormLabel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.userLoginFormLabelTitle{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.userLoginFormInput{
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    height: 50px;
+    font-size: 14px;
+}
+.userLoginFormButton{
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
